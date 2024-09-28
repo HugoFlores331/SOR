@@ -1,0 +1,33 @@
+
+section{
+    margin-top: 2rem;
+    color:black;
+    text-align: center;
+    height: 22rem;
+    display: flexbox;
+    margin-bottom: 2rem;
+    padding-left:35rem;
+}
+
+
+.co{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.co input{
+    margin-left: 1rem;
+}
+
+button{
+    width: 8rem;
+    border-radius: 20px;
+    margin-left: 4rem;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}

@@ -1,0 +1,53 @@
+body {
+    background-color:#b0d3bf;
+    text-align: center;
+    cursor: pointer;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    display:flex;
+}
+
+.t a{
+    text-decoration: none;
+}
+
+.t a:hover{
+    color: blue;
+}
+
+.t{
+    margin-top: 20px;
+    margin-left: 12rem;
+}
+
+.c img{
+    width: 2rem;
+    margin-top: 15px;
+}
+
+.c{
+    margin-left: 15rem;
+}
+
+.menu img{
+    width: 20rem;
+}
+
+.menu{
+    margin: 2rem;
+    display:inline-flex;
+    width: 22rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    border-radius: 10rem;  
+}
+
+.menu:hover{
+    background-color:whitesmoke;
+}
+

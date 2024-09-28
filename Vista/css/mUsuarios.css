@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color:#b0d3bf;
+}
+
+h1,p{
+    color:white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.us-cnt {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4rem;
+    display: inline-flex;
+    margin-right: 5rem;
+}
+
+.us-cnt img{
+    width: 20rem;
+}
+
+.us-cnt:hover{
+    background-color:white;
+}
+
+.us-cnt:hover p{
+    color: black;
+}

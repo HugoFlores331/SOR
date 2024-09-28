@@ -1,0 +1,40 @@
+body {
+    background-color:#b0d3bf;
+    text-align: center;
+    cursor: pointer;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    display:flex;
+}
+
+.t a{
+    text-decoration: none;
+}
+
+.t a:hover{
+    color: blue;
+}
+
+.t{
+    margin-top: 20px;
+    margin-left: 12rem;
+}
+
+.c img{
+    width: 2rem;
+    margin-top: 15px;
+}
+
+.c{
+    margin-left: 15rem;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
