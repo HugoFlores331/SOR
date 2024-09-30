@@ -4,7 +4,7 @@ body {
 }
 
 h1,p{
-    color:white;
+    color:black;
 }
 
 
@@ -27,6 +27,3 @@ a{
     background-color:white;
 }
 
-.us-cnt:hover p{
-    color: black;
-}
