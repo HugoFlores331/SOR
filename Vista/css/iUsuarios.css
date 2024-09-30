@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 25px; /* Ancho de la imagen */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el cursor */
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    img {
+        width: 20px; /* Ajustar el tamaño de las imágenes en pantallas pequeñas */
+    }
+}
