@@ -1,29 +1,34 @@
-<header> 
-            <nav>
-                <div class="l">
-                    <a href="#">
-                        <img src="Vista/icon/log.png" alt="">
-                    </a>
-                </div>
+<html>
+    <body>
+        <link rel="stylesheet" href="css/encabezados.css">
+    </body>
 
-               
-                <div class="t">
-                    <a href="informacion.html">Informacion</a>
-                </div>
+    <header> 
+        <nav>
+            <div class="l">
+                <a href="contenido.php">
+                    <img src="icon/log.png">
+                </a>
+            </div>
 
-                <div class="t">
-                    <a href="riego.html">Funcionalidades</a>
-                </div>
+            <div class="t">
+                <a href="informacion.php">Informacion</a>
+            </div>
 
-                <div class="t">
-                    <a href="#">Usuarios</a>
-                </div>
+            <div class="t">
+                <a href="riego.php">Funcionalidades</a>
+            </div>
 
-                <div class="c">
-                    <a href="Vista/login.php">
-                        <img src="Vista/icon/out.png">
-                    </a>
-                </div>
+            <div class="t">
+                <a href="usuario.php">Usuarios</a>
+            </div>
 
-            </nav>
-        </header>
+            <div class="c">
+                <a href="../index.php">
+                    <img src="icon/out.png">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+</html>

@@ -8,6 +8,11 @@
     </head>
 
     <body>
+
+        <?php
+            include('header.php');
+        ?>
+
         <section>
 
             <h2>Listado</h2> 
@@ -39,5 +44,10 @@
                 </tr>
             </table>
         </section>    
+
+        <?php
+            include('footer.php');
+        ?>
+        
     </body>
 </html>

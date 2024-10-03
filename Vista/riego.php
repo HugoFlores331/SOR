@@ -13,35 +13,11 @@
     </head>
 
     <body>
-        <header> 
-            <nav>
-                <div class="l">
-                    <a href="informacion.html">
-                        <img src="icon/log.png" alt="">
-                    </a>
-                </div>
-
-               
-                <div class="t">
-                    <a href="informacion.html">Informacion</a>
-                </div>
-
-                <div class="t">
-                    <a href="riego.html">Funcionalidades</a>
-                </div>
-
-                <div class="t">
-                    <a href="usuario.html">Usuarios</a>
-                </div>
-
-                <div class="c">
-                    <a href="login.html">
-                        <img src="icon/out.png">
-                    </a>
-                </div>
-            </nav>
-        </header> 
-
+        
+        <?php
+            include('header.php');
+        ?>
+        
         <section>
             <div class="co"> 
                 <div class="form-check form-switch d-flex align-items-center">
@@ -79,10 +55,9 @@
             </div>
         </section>
 
-
-        <footer>
-            <img src="icon/log.png">
-        </footer>
+        <?php
+            include('footer.php');
+        ?>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

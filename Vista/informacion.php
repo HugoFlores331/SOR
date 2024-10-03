@@ -10,35 +10,10 @@
     </head>
 
     <body>
-        <header> 
-            <nav>
-                <div class="l">
-                    <a href="contenido.html">
-                        <img src="icon/log.png" alt="">
-                    </a>
-                </div>
-
-               
-                <div class="t">
-                    <a href="informacion.html">Informacion</a>
-                </div>
-
-                <div class="t">
-                    <a href="riego.html">Funcionalidades</a>
-                </div>
-
-                <div class="t">
-                    <a href="usuario.html">Usuarios</a>
-                </div>
-
-                <div class="c">
-                    <a href="login.html">
-                        <img src="icon/out.png">
-                    </a>
-                </div>
-
-            </nav>
-        </header>
+        
+        <?php 
+            include('header.php');
+        ?>
 
         <section class="s_humedad">
             <table>
@@ -97,8 +72,8 @@
             </table>
         </section>
 
-        <footer>
-            <img src="icon/log.png">
-        </footer>
+        <?php
+            include('footer.php');
+        ?>
     </body>
 </html>

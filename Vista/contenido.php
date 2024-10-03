@@ -9,51 +9,25 @@
 
     <body>
 
-        <header> 
-            <nav>
-                <div class="l">
-                    <a href="#">
-                        <img src="icon/log.png" alt="">
-                    </a>
-                </div>
-
-               
-                <div class="t">
-                    <a href="informacion.html">Informacion</a>
-                </div>
-
-                <div class="t">
-                    <a href="riego.html">Funcionalidades</a>
-                </div>
-
-                <div class="t">
-                    <a href="usuario.html">Usuarios</a>
-                </div>
-
-                <div class="c">
-                    <a href="login.html">
-                        <img src="icon/out.png">
-                    </a>
-                </div>
-
-            </nav>
-        </header>
+    <?php 
+        include('header.php');
+    ?>
 
         <section>
             <div class="menu">
-                <a href="informacion.html">
+                <a href="informacion.php">
                     <img src="img/sensor.png">
                 </a>
             </div>
 
             <div class="menu">
-                <a href="riego.html">
+                <a href="riego.php">
                     <img src="img/riego.png" >
                 </a>
             </div>
 
             <div class="menu">
-                <a href="usuario.html">
+                <a href="usuario.php">
                     <img src="img/usuario.png"">
                 </a>
             </div>

@@ -53,7 +53,6 @@ img:hover {
     transform: scale(1.2); /* Efecto de zoom al pasar el cursor */
 }
 
-/* Estilo responsivo */
 @media (max-width: 600px) {
     th, td {
         font-size: 14px;
