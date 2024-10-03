@@ -3,6 +3,10 @@ body {
     background-color:#b0d3bf;
 }
 
+section{
+    margin-bottom: 3rem;
+}
+
 h1,p{
     color:black;
 }

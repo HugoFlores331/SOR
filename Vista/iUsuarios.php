@@ -35,7 +35,7 @@
                     <td>Usuario</td>
 
                     <td>
-                        <div>
+                        <div class="imag">
                             <img src="icon/editar.png">
                             <img src="icon/eliminar.png">
                             <img src="icon/recargar.png">
